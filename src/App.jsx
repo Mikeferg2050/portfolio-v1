@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import profilePic from "./assets/profile pic 3.jpg";
 function App() {
   return (
     <div className="backgroundContainer">
@@ -25,7 +25,7 @@ function App() {
           </nav>
         </header>
         <section className="hero">
-          <img src="assets/crop.jpg" alt="Profile" className="profile-img" />
+          <img src={profilePic} alt="Profile" className="profile-img" />
           <div className="hero-content">
             <h1>Bridging the gap between design and development.</h1>
             <p>
